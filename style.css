@@ -1,3 +1,22 @@
-body{
-    background-color: red;
+
+nav{
+     text-transform: uppercase;   
 }
+.nav-link{
+    opacity: 0.7;   
+}
+
+.nav-link:hover{
+    opacity: 1;
+    background-color: #eee;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url("headerImg.jpg");
+    background-size: cover;
+    }
+    
+header p{
+    font-style: italic;
+    }
